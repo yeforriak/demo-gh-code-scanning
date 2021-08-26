@@ -1,0 +1,16 @@
+{
+  "name": "demo-gh-code-scanning",
+  "version": "1.0.0",
+  "description": "demo github code scanning",
+  "scripts": {
+    "start": "node src/service.js",
+    "lint": "npx prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ms": "^0.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
+}
